@@ -8,7 +8,6 @@ offset = 7
 def decoding_caesar(text, offset):
     message = ""
     for i in text:
-        
         index = alphabet.find(i) + offset
         letter = alphabet[index]
         message += letter
